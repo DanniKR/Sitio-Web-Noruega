@@ -1,4 +1,3 @@
-/* Variables de la Paleta de Colores (Inspiración Noruega) */
 :root {
     --azul-noche: #0A192F;
     --verde-aurora: #00E676;
@@ -22,7 +21,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header Global */
 header {
     background-color: var(--azul-noche);
     color: white;
@@ -63,7 +61,6 @@ nav a:hover {
     font-size: 0.9rem;
 }
 
-/* Footer Global */
 footer {
     background-color: var(--azul-noche);
     color: white;
