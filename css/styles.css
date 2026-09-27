@@ -1,0 +1,73 @@
+
+:root {
+    --azul-noche: #0A192F;
+    --verde-aurora: #00E676;
+    --rojo-rorbu: #BA2D27;
+    --azul-glaciar: #82C0D8;
+    --blanco-nieve: #F8F9FA;
+    --fondo-tarjeta: #EBF3F5;
+    --texto-oscuro: #1A202C;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--blanco-nieve);
+    color: var(--texto-oscuro);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--azul-noche);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--verde-aurora);
+}
+
+.lang-switch {
+    background-color: var(--verde-aurora);
+    color: var(--azul-noche);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: var(--azul-noche);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+}
